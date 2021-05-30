@@ -8,6 +8,12 @@ assert  else  import  pass
 break  except  in  raise'''
 
 print('Hello World')
+print("   *")
+print("  ***")
+print(" *****")
+print("*******")
+print("  **")
+print("  **")
 
 #Constants
 print(123)
@@ -51,11 +57,40 @@ type(12.5)
 t_n=input("enter:")
 print(t_n)
 
+#Data Types
+print("There once was a man Jim.")
+print("He was 40 years old.")
+print("He really like his name Jim.")
+print("But not like his age 40.")
 
-# Conditional statements
-x=5
-if x<5:
-  print('smaller')
-if x<20:
-  print('bigger')
-print("finish")
+#Variable Functions
+no=7
+print(no+"is my favourite number.")
+
+My_num=-7
+print(abs(my_num))
+
+print(pow(3,2))
+print(max(5,7))
+print(min(5,7))
+
+print(round(3.7))
+
+from math import *
+
+print(floor(3.7))
+print(ceil(7.3))
+print(sqrt(36))
+
+#Basic Calculator
+_n1=input("enter a number:")
+_n2=input("enter 2nd number:")
+result=_n1+_n2
+print(result)
+
+#Mad Libs Game
+print("Roses r red")
+print("violets r blue")
+print("i love you")
+
+
